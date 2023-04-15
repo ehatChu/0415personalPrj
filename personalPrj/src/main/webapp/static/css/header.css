@@ -1,0 +1,55 @@
+
+
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Single+Day&display=swap');
+
+        body {
+            margin:  0px;
+            height: 1000px;
+        }
+        nav {
+            width: 100vw;
+            height: 80px;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            font-family: yerin;
+            font-weight: 800;
+            z-index: 100;
+            position: sticky;
+        }
+        .logo {
+            color: white;
+            display: flex;
+            align-items: center;
+            
+        }
+        .logo > a {
+       		 font-size: 2em;
+        }
+
+        @font-face {
+            font-family: "yerin";
+            src: url(./NEXON\ Lv1\ Gothic\ OTF\ Bold.otf);
+        }
+        @font-face {
+            font-family: "yer2";
+            src: url(./00_폰트/RIDIBatang.otf);
+        }
+         .menu {
+            color: white;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .menu > a{
+            margin-right: 20px;
+        }
+        .menu > a:hover {
+            color: #00acee;
+            font-weight: 800;
+        }
