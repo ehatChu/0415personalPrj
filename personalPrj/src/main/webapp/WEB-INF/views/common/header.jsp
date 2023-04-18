@@ -13,7 +13,7 @@
        
         <a href="#">Gallery</a>
   
-        <a href="#">Sing in</a>
+        <a href="/app/member/join">Sing in</a>
       
         <a href="/app/member/login">Log in</a>
     </div>

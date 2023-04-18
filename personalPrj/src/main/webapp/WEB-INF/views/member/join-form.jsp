@@ -39,10 +39,27 @@
 				<div class="content-area">
 					<form action="/app/member/join" method="post">
 						<div>Welcome Join Us</div>
-						<div class="content">ID</div><input type="text" name="memberId" placeholder="">
-						<div class="content">PWD</div><input type="text" name="memberPwd" placeholder="">
+						<div class="content">ID</div><input type="text" name="memberId" placeholder="Enter your ID">
+						<div class="content">PWD</div><input type="password" name="memberPwd" placeholder="Password">
+						<div class="content">PWD Check</div><input type="password" name="memberPwd2" placeholder="one more check your Password">
 						<div class="content">Profile</div><input type="file">
-						
+						<div class="content">Travel Style</div>
+						<div>
+							<label>인물사진찍기
+								<input type="checkbox" name="style" value="20">
+							</label>
+							<label>풍경사진찍기
+								<input type="checkbox" name="style" value="20">
+							</label>
+							<label>음식먹기
+								<input type="checkbox" name="style" value="20">
+							</label>
+							<label>체험하기
+								<input type="checkbox" name="style" value="20">
+							</label>
+						</div>
+						<input type="reset" value="초기화">
+						<input type="submit" value="회원가입">
 					</form>
 					
 				</div>		
